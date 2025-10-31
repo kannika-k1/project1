@@ -99,17 +99,63 @@ this is also my website
              document.getElementById("box").innerHTML="the text will be change";
         }
     </script>
-    <form action="inline.dummy" method="post">
+    <!-- <form action="inline.dummy" method="post">
         <label for="box1">username</label>
         <input type="text" id="box1" minlength="10" autocomplete="default" required >
         <button>submit</button>
         
-    </form>
+    </form> -->
     <p>text<big>hello</big></p>
     <p>text<s>hello</s></p>
     <p>text<del>hello</del></p>
     <p>text<sub>hello</sub></p>
     <p>text<sup>hello</sup></p>
+    <form encryption>
+        <label for="box1">username</label>
+        <input type="text" id="box1" minlength="10" autocomplete="default" required placeholder="username" >
+        <br><br>
+        <label for="box2" >password</label>
+        <input type="password" id="box2" required placeholder="password" maxlength="6">
+        <br><br>
+        <label for="box3" >Email</label>
+        <input type="email" id="box3" required placeholder="Email" >
+        <br><br>
+        <label for="box4" >Phone</label>
+        <input type="tel" id="box4" required placeholder="phone" pattern="[0-9]{10}">
+        <br><br>
+        <label for="box4" >Dateofbirth</label>
+        <input type="date" id="box4" required placeholder="Dateofbirth" >
+        <br><br>
+        <label for="box5" >Quantity</label>
+        <input type="number" id="box5" required placeholder="quantity" min="0" max="10">
+        <br><br>
+        <label for="box6" >title</label>
+        
+        <label for="box6" >Mr</label>
+        <input type="radio" id="box6" name="title" >
+
+        <label for="box6" >Mrs</label>
+        <input type="radio" id="box6" name="title">
+        <label for="box6" >Dr</label>
+        <input type="radio" id="box6" name="title" >
+        <br><br>
+        <label for="box7" >payment</label>
+        <select name="payment" id="box7">
+            <option>UPI</option>
+            <option>cash</option>
+        </select>
+        <br>
+        <label for="subscripe">subscribe</label>
+        <input type="checkbox" id="subscribe">
+        <br><br>
+         <label for="text">Textarea</label>
+         <textarea id="text"></textarea>
+         <br><br>
+         <label for="file">UploadFile</label>
+         <input type="file" id="file" accept=".doc,.docx,.pdf,.txt">
+        <input type="reset">
+        <input type="submit">
+    </form>
     
 
     
