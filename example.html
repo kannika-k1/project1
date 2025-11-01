@@ -110,7 +110,7 @@ this is also my website
     <p>text<del>hello</del></p>
     <p>text<sub>hello</sub></p>
     <p>text<sup>hello</sup></p>
-    <form encryption>
+    <form action="index.db" method="post" enctype="multipart/form-data">
         <label for="box1">username</label>
         <input type="text" id="box1" minlength="10" autocomplete="default" required placeholder="username" >
         <br><br>
@@ -121,7 +121,7 @@ this is also my website
         <input type="email" id="box3" required placeholder="Email" >
         <br><br>
         <label for="box4" >Phone</label>
-        <input type="tel" id="box4" required placeholder="phone" pattern="[0-9]{10}">
+        <input type="tel" id="box4" required placeholder="phone" pattern="[0-9]{2}--[0-9]{10}">
         <br><br>
         <label for="box4" >Dateofbirth</label>
         <input type="date" id="box4" required placeholder="Dateofbirth" >
@@ -129,27 +129,25 @@ this is also my website
         <label for="box5" >Quantity</label>
         <input type="number" id="box5" required placeholder="quantity" min="0" max="10">
         <br><br>
-        <label for="box6" >title</label>
-        
-        <label for="box6" >Mr</label>
-        <input type="radio" id="box6" name="title" >
-
-        <label for="box6" >Mrs</label>
-        <input type="radio" id="box6" name="title">
-        <label for="box6" >Dr</label>
-        <input type="radio" id="box6" name="title" >
+        <label for="title">Title: </label>
+        <label for="Mr.">Mr: </label>
+        <input type="radio" value="Mr." id="Mr." name="title" />
+        <label for="Ms.">Ms: </label>
+        <input type="radio" value="Ms." id="Ms." name="title" />
+        <label for="Dr.">Dr: </label>
+        <input type="radio" value="Dr." id=".Dr" name="title" />
         <br><br>
         <label for="box7" >payment</label>
-        <select name="payment" id="box7">
-            <option>UPI</option>
-            <option>cash</option>
+        <select name=" " id="box7">
+            <option value="UPI">UPI</option>
+            <option value="cash">cash</option>
         </select>
         <br>
         <label for="subscripe">subscribe</label>
         <input type="checkbox" id="subscribe">
         <br><br>
          <label for="text">Textarea</label>
-         <textarea id="text"></textarea>
+         <textarea id="text" rows="2" cols="20"></textarea>
          <br><br>
          <label for="file">UploadFile</label>
          <input type="file" id="file" accept=".doc,.docx,.pdf,.txt">
