@@ -49,8 +49,8 @@ body{
 
 }*/
 
-h1{
-    /* border-style: double; 
+/*h1{
+     border-style: double; 
     border-style: dotted;
     border-style:solid;
     border-style:inset;
@@ -58,7 +58,7 @@ h1{
     border-style:solid;
     border-width:5px;
     border-radius: 10px;
-    border-color:red;*/
+    border-color:red;
     border:solid 5px red;
     }
 p{
@@ -66,4 +66,84 @@ p{
     border-top: 10px solid green;
     border-left: 10px solid blue;
     border-right: 10px solid red;
+}*/
+
+/*text shadows 1st one horizontal and 2nd one vertical and 3rd one pleer*/
+body{
+    margin:0;
 }
+h1{
+    text-shadow: 3px 3px 2px red, -3px -3px 2px blue;
+}
+/* #box1{
+    width:100px;
+    height:100px;
+    background-color: pink;
+    box-shadow: 3px 3px 5px;
+} 
+    auto used to center the element*/
+/* .box{
+    border:5px red solid;
+    font-size: 5em;
+    height:250px;
+    width:250px;
+    background-color: greenyellow;
+    margin:20px ;
+    margin:auto;
+
+} */
+/* #box1{
+    background-color: greenyellow;
+    margin-bottom:20px;
+    margin-left:20px; 
+    margin:20px;
+}
+#box2{
+    background-color: blue;
+    margin:20px;
+}   */
+/* body{
+    display:flow-root;
+   }
+img{
+    width:200px;
+    height:200px;
+}
+
+#i1{
+    float:right;
+    
+
+}
+#i2{
+    float:left; 
+}*/
+
+/* div{
+    border:2px solid;
+    height:70px;
+    overflow:hidden; 
+    overflow:scroll;
+    overflow:auto;
+    overflow:visible;
+    overflow-clip-margin: 30px;
+
+} */
+
+div{
+    background-color: greenyellow;
+    width:100px;
+    height:100px;
+    /* display:inline-block; */
+    /* display:none; */
+    display:hidden;
+}
+/* span{
+    background-color: aqua;
+    display:inline-block;
+    width:100px;
+    height:100px;
+}
+p{
+    display:inline-block;
+} */
