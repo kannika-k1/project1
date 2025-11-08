@@ -69,12 +69,12 @@ p{
 }*/
 
 /*text shadows 1st one horizontal and 2nd one vertical and 3rd one pleer*/
-body{
+/* body{
     margin:0;
 }
 h1{
     text-shadow: 3px 3px 2px red, -3px -3px 2px blue;
-}
+} */
 /* #box1{
     width:100px;
     height:100px;
@@ -130,14 +130,14 @@ img{
 
 } */
 
-div{
+/* div{
     background-color: greenyellow;
     width:100px;
     height:100px;
-    /* display:inline-block; */
-    /* display:none; */
+    display:inline-block; 
+    display:none; 
     display:hidden;
-}
+} */
 /* span{
     background-color: aqua;
     display:inline-block;
@@ -147,3 +147,119 @@ div{
 p{
     display:inline-block;
 } */
+
+
+
+/* .box{
+    border:2px solid;
+    height:auto;
+    width:50%;
+    margin:10px;
+    float:left;
+    padding:20px;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 500px;
+
+} */
+
+
+/* relative */
+/* #box1{
+    width:200px;
+    height:200px;
+    margin:10px;
+    background-color: blue;
+    position:absolute;
+    top:100px;
+    left:250px;
+
+   
+
+} */
+/* absolute */
+/* #box1{
+    width:200px;
+    height:200px;
+    margin:10px;
+    background-color: blue;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+} */
+
+
+/* #box1{
+    width:200px;
+    height:200px;
+    margin:10px;
+    background-color: blue;
+    position:sticky;
+    top:100px;
+    left:200px;
+   
+
+}
+#box2{
+    background-color: yellowgreen;
+    height:100px;
+    width:100px;
+    position: absolute;
+    top:50px;
+    left:50px;
+
+}
+#box3{
+    width:50px;
+    height:50px;
+    background-color: yellow;
+    top:20px;
+    left:20px;
+    position:absolute;
+} */
+
+/* #box1{
+    height:250px;
+    width:250px;
+    position:relative;
+    background-color: blue;
+    margin:10px;
+
+}
+#box2{
+    height:50px;
+    width:50px;
+    position:absolute;
+    background-color: yellow;
+    bottom:0px;
+    right:0px;
+
+} */
+
+
+
+#container{
+    border:2px solid;
+
+}
+/* #container p{
+    background-color: yellow;
+} 
+#container > p{
+    background-color: yellow;
+}
+    under the code called general sibiling*/
+
+/* #container ~ p{
+    background-color: yellow;
+} */
+ /* p +={
+    background-color: yellow;
+}  */
+
+/* seoudoclass */
+
+
+
